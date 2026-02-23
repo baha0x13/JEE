@@ -10,10 +10,9 @@ public class ProduitDAOMock implements IProduitDAO {
     private static List<Produit> catalogue = new ArrayList<>();
 
     static {
-        catalogue.add(new Produit(1, "Laptop Dell", 1200.00, 15));
-        catalogue.add(new Produit(2, "Souris Logitech", 25.50, 100));
-        catalogue.add(new Produit(3, "Clavier Mécanique", 75.00, 20));
-        catalogue.add(new Produit(4, "Écran 24 pouces", 350.00, 8));
+        catalogue.add(new Produit(1, "Clavier", 25.0));
+        catalogue.add(new Produit(2, "Souris Logitech", 35.50));
+        catalogue.add(new Produit(3, "Écran 24 pouces", 350.00));
     }
 
     @Override
